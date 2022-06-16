@@ -10,11 +10,11 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/index.html');
 })
 
-app.get('/generic.html', (req, res) => {
+app.get('/generic', (req, res) => {
     res.sendFile(__dirname + '/public/generic.html');
 })
 
-app.get('/elements.html', (req, res) => {
+app.get('/elements', (req, res) => {
     res.sendFile(__dirname + '/public/elements.html');
 })
 
